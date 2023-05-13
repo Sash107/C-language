@@ -2,9 +2,10 @@
 int main (){
     int a;
     float b,c;
-    printf ("Temperature convertor \n");
-    printf ("press 1 for Fahrenheit to Celsius convertor \n");
-    printf ("press 2 for Celsius to Fahrenheit convertor \n");
+    printf ("Temperature convertor: \n");
+    printf ("press 1 for Fahrenheit to Celsius convertor. \n");
+    printf ("press 2 for Celsius to Fahrenheit convertor. \n \n");
+    printf ("Your input = ");
     scanf ("%d",&a);
     if (a==1){
         printf ("The value of Temperature in °C = ");
